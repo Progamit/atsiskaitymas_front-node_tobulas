@@ -1,0 +1,415 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.d-flex {
+    display: flex;
+}
+.f-col {
+    flex-direction: column;
+}
+.flex-1 {
+    flex: 1
+}
+.j-space-between {
+    justify-content: space-between;
+}
+.j-space-evenly {
+    justify-content: space-evenly;
+}
+.j-space-around {
+    justify-content: space-around;
+}
+.j-end {
+    justify-content: end;
+}
+.j-start {
+    justify-content: start;
+}
+
+button {
+    cursor: pointer;
+}
+.a-center {
+    align-items: center;
+}
+.j-center {
+    display: flex;
+    justify-content: center;
+}
+.j-item-center {
+    justify-items: center;
+}
+.p-relative {
+    position: relative;
+}
+
+/*general */
+
+
+.container {
+    width: 1400px;
+    margin: 20px auto;
+    background-color: rgb(169, 169, 169);
+    border: 3px solid black;
+    height: 850px;
+    border-radius: 25px;
+    text-align: center;
+    padding: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://images.unsplash.com/photo-1561912847-95100ed8646c?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+.container2 {
+    width: 1400px;
+    margin: 20px auto;
+    background-color: rgb(169, 169, 169);
+    border: 3px solid black;
+    height: 850px;
+    border-radius: 25px;
+    text-align: center;
+    padding: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://images.unsplash.com/photo-1561912847-95100ed8646c?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    color: white;
+}
+.container2 button {
+    font-size: 1.5em;
+    background-color: #967b4a;
+    color: white;
+    font-weight: bold;
+    padding: 3px 30px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+.container2 button:hover {
+    background-color: #e59e1e;
+}
+
+
+.register  {
+    justify-content: space-between;
+    height: 500px;
+}
+
+
+.login input {
+    font-size: 1.5em;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(222, 58, 184);
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+.login button{
+    font-size: 1.5em;
+    padding:10px 30px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(147, 20, 220);
+    font-weight: bold;
+    border: 3px solid black;
+}
+.avatars {
+    padding: 0 400px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+.avatar {
+    border: 3px solid black;
+    background-color: #b8e0b8;
+    margin: 3px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+
+.avatars img {
+    max-height: 120px;
+    max-width: 150px;
+}
+.generatedItem > div > div {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    border: 5px solid #939660;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.generatedItem img {
+    max-width: 60%;
+
+
+}
+.generatedItem button {
+    margin-top: 15px;
+    font-size: 1.2em;
+    padding: 3px 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #b8e0b8;
+}
+.login h1 {
+    color: white;
+}
+.btnIndex {
+    font-size: 1.5em;
+    padding:10px 30px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.allItems img {
+    width: 70px;
+}
+
+
+.allItems {
+    display: grid;
+    grid-template-rows: repeat(2, 140px);
+    grid-template-columns: repeat(4, 120px);
+    gap: 10px;
+}
+
+
+.allItems > div >div {
+    width: 120px;
+    height: 140px;
+    background-color: lightblue;
+    border-radius: 25px;
+    border: 5px solid #939660;
+}
+.weaponToFight {
+    display: flex;
+    padding: 0 50px;
+}
+
+.weaponToFight img {
+    width: 140px;
+    border: 5px solid #939660;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+
+.playerOnline {
+    width: 80%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px;
+    padding: 0 35px;
+    border: 5px solid #939660;
+    border-radius: 25px;
+    color: white;
+
+}
+
+
+.playerOnline img {
+    height: 50px;
+}
+.playerOne {
+    width: 300px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(7, 134, 98, 0.85);
+    border: 5px solid green;
+    border-radius: 30px;
+
+}
+.playerOne img {
+    height: 500px;
+}
+.gamePage {
+    width: 100%;
+    height: 100%;
+}
+.fightField {
+    display: flex;
+    justify-content: space-between;
+
+}
+.progressBar {
+    width: 100%;
+    height: 30px;
+    background-color: #ff0026;
+    border: 3px solid black;
+    border-radius: 15px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.progressBar > div {
+    height: 100%;
+    background-color: green;
+
+
+}
+.fightFieldCenter {
+    padding: 20px;
+    background-color: rgba(7, 134, 98, 0.85);
+    border: 5px solid green;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.startGameField button{
+    font-weight: bold;
+    font-size: 2em;
+    padding: 20px 50px;
+    margin-top: 100px;
+    border-radius: 30px;
+    border: 3px solid black;
+}
+.left {
+    margin: 5px 20px 5px 5px;
+    border: 5px solid green;
+    height: 100%;
+    padding: 5px;
+    border-radius: 30px;
+    background-color: rgba(7, 134, 98, 0.85);
+}
+.right {
+    margin: 5px 5px 5px 20px;
+    border: 5px solid green;
+    height: 100%;
+    padding: 5px;
+    border-radius: 30px;
+    background-color: rgba(7, 134, 98, 0.85);
+}
+.userInfo {
+    color: white;
+    border: 5px solid green;
+    background-color: rgba(7, 134, 98, 0.85);
+    border-radius: 30px;
+    margin-bottom: 10px;
+    margin-top: -10px;
+    justify-content: space-between;
+    padding: 0 35px;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.userInfo button {
+    padding: 3px 30px;
+    border-radius: 5px;
+    border: 3px solid black;
+    background-color: #ef3d3d;
+    font-weight: bold;
+    color: white;
+    font-size: 1em;
+}
+
+.userInfo button:hover{
+    background-color: red ;
+
+}
+
+.myItems button{
+    font-size: 0.8em;
+    padding: 3px 5px;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+.fieldInfo {
+    width: 200px;
+    position: absolute;
+    background-color: rgba(169, 176, 54, 0.90);
+    left: 130px;
+    z-index: 3;
+    border-radius: 25px;
+}
+
+.fieldInfo2{
+    width: 200px;
+    position: absolute;
+    background-color: rgba(169, 176, 54, 0.90);
+    left: 100px;
+    z-index: 3;
+    top: 0;
+    border-radius: 25px;
+}
+
+
+.itemsInFight {
+    display: flex;
+    justify-content: center;
+}
+.itemsInFight img {
+    margin-top: 15px;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+.itemsInFight img:hover{
+    background-color: #cdd90c;
+    border: 3px solid black;
+    border-radius: 50%
+}
+.modal {
+    position: absolute;
+    top: 150px;
+    left: 630px
+}
+
+.requestModal {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(22, 22, 26, 0.98);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 50px;
+    border: 5px solid red;
+    text-align: center;
+    font-size: 3em;
+}
+.requestModal button {
+    background-color: #361818;
+    color: white;
+    font-weight: bold;
+    margin: 30px;
+    font-size: 30px;
+    padding: 5px 30px;
+    border-radius: 20px;
+    border: 3px solid white;
+}
+.requestModal button:hover {
+    color: green;
+    border: 3px solid green
+}
+
+.btnHit {
+    font-size: 50px;
+    border: 5px solid red;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding: 5px 30px;
+    border-radius: 15px;
+}
+.fightFieldCenter p {
+    color: #eeff00;
+    font-size: 35px;
+}
+.backToLobbyBtn {
+    background-color: #b8e0b8;
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: 3px solid black;
+}
